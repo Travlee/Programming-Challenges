@@ -1,0 +1,48 @@
+.Title{
+    width: inherit;
+
+    text-transform: uppercase;
+    color: #06f;
+    font-weight: bold;
+    font-size: 25px;
+    text-align: left;
+
+    display: inline-block;
+    float: left;
+}
+.Title-Info{
+    font-size: 15px;
+    text-transform: lowercase;
+}
+textarea{
+    width: 600px;
+    height: 75px;
+
+    border: 1px solid #06f;
+    background-color: #080808;
+    padding: 5px;
+    margin-bottom: 10px;
+    
+    color: inherit;
+    overflow: auto;
+    text-align: center;
+    font-family: inherit;
+
+    float: left;
+    resize: none;
+}
+#container{
+    position: relative;
+    left: auto;
+    right: auto;
+    margin: auto;
+    top: 75px;
+
+    width: 612px;
+    height: 400px;
+
+    /*background-color: #000;*/
+}
+.wordlist{
+    height: 250px;
+}

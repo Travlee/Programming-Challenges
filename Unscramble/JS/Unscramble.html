@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Unscramble - Projects/Text</title>
+    <link href="/tinyroosters.ico" rel="icon">
+    <link href="/Styles/Site.css" rel="stylesheet">
+    <link href="/Pages/Projects/Text/Unscramble/Styles/Unscramble.css" rel="stylesheet">
+    <script src="/Pages/Projects/Text/Unscramble/Scripts/Unscramble.js"></script>
+    <script src="/Scripts/Site.js"></script>
+    <script src="/Scripts/Site.Storage.js"></script>    
+    <script src="/Scripts/Site.Nav.js"></script>    
+    <script src="/Scripts/Site.Projects.js"></script>
+    <script src="/Scripts/NavBar-Info.js"></script>        
+</head>
+<body>
+    <div class="BruceBarner">
+        <div class="BruceBarner-Title">Word Unscrambler</div>
+        <nav class="BruceBarner-Nav">
+            <a href="/Projects/">            
+                <button class="BruceBarner-Button" id="Btn_Projects">Back</button>
+            </a>
+            <button class="BruceBarner-Button" id="Btn_Info">Info</button>
+            <a href="https://github.com/Travlee/Projects/tree/master/Text/Unscramble/Javascript">
+                <button class="BruceBarner-Button">Source</button>            
+            </a>
+        </nav>
+    </div>
+    <div id="container">
+        <div class="Title">Scrambled</div>
+        <textarea id="scrambled" readonly></textarea>
+        <div class="Title">Solved<span class="Title-Info" id="Solved"></span></div>
+        <textarea id="solved" readonly></textarea>
+        <div class="Title">Wordlist</div>
+        <textarea id="wordlist" class="wordlist" readonly></textarea>
+    </div>
+    <!--<div class="Info-Block"></div>-->
+    
+</body>
+</html>
